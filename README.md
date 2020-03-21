@@ -72,6 +72,8 @@ Bot commands:
 29. !usercheck
 30. !withdraw (command for admin to withdraw keys) 
 
+*Feature/s still being added
+
 
 # Prerequisites (What bot require to start)
 - Node.js (https://nodejs.org/en/)
