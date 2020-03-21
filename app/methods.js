@@ -10,7 +10,7 @@ t = module.exports = {
     check: function() {
         const request = require('request');
         var options = {
-            url: 'https://raw.githubusercontent.com/Refloow/Steam-Card-Bot-PRO/master/package.json',
+            url: 'https://raw.githubusercontent.com/rsobaid/Steam-Card-Bot-PRO/master/package.json',
             method: 'GET',
         };
         function look(error, JSONresponse, body) {
