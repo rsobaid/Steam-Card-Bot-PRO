@@ -37,7 +37,6 @@ Refloow Scripts Support - https://discord.gg/UKbGDpv
 - Variety of commands such as:
 
 Commands:
-Bot commands:
 1. !owner - shows my owner profile, if you have any problems you can contact him
 2. *!stats - shows the current amount of the bot currencies
 3. !prices - shows the current prices of the bot
