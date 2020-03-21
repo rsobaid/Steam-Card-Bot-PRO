@@ -113,7 +113,7 @@ Step 4 (install bot modules)
 Step 5 (run the bot)
 - Click start.bat file to run bot.
 
-If there is any questions feel free to ask me on: https://steamcommunity.com/id/MajokingGames/
+If there is any questions feel free to ask me on: https://steamcommunity.com/id/rsobaid/
 
 # Want Improvements ?
 
