@@ -68,9 +68,9 @@ Bot commands:
 
 - Admin Commands:
 
-!block user_id (admin command to block user from using bot due spaming)
-!usercheck
-!withdraw (command for admin to withdraw keys) 
+28. !block user_id (admin command to block user from using bot due spaming)
+29. !usercheck
+30. !withdraw (command for admin to withdraw keys) 
 
 
 # Prerequisites (What bot require to start)
