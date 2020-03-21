@@ -37,6 +37,7 @@ Refloow Scripts Support - https://discord.gg/UKbGDpv
 - Variety of commands such as:
 
 Commands:
+Bot commands:
 1. !owner - shows my owner profile, if you have any problems you can contact him
 2. *!stats - shows the current amount of the bot currencies
 3. !prices - shows the current prices of the bot
@@ -112,7 +113,7 @@ Step 4 (install bot modules)
 Step 5 (run the bot)
 - Click start.bat file to run bot.
 
-If there is any questions feel free to ask me on: https://steamcommunity.com/id/rsobaid/
+If there is any questions feel free to ask me on: https://steamcommunity.com/id/MajokingGames/
 
 # Want Improvements ?
 
