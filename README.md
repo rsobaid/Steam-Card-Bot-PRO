@@ -1,11 +1,13 @@
 # Steam-Card-Bot-PRO
 An free open source, fully automated Level Up Bot with all features and support + much more !
+CREDITS TO MajokingGames ORIGINIAL SCRIPT
 
 - This project will receive constant updates and new features added !
 
 # DISCORD Support Server
 
-https://discord.gg/UKbGDpv
+ShedBots - https://discord.gg/XyWExCr
+Refloow Scripts Support - https://discord.gg/UKbGDpv
 
 # Current Features
 
@@ -34,33 +36,41 @@ https://discord.gg/UKbGDpv
 - Declining incoming group invites.
 - Variety of commands such as:
 
-Info Commands:
+Commands:
+Bot commands:
+!owner - shows my owner profile, if you have any problems you can contact him
+*!stats - shows the current amount of the bot currencies
+!prices - shows the current prices of the bot
 
-1. !commands (Displays list of all commands that are availeble)
-2. !owner (Displays owner profile)
-3. !info (Custom info command that can be set at config)
-4. !level x (Calculation command for users who want to see how much sets they need to reach dream level)
-5. !check (Displays amount bot has to offer to user (not counting sets that user already crafted))
-6. !sellcheck
-7. !buyonecheck
-8. !stock (Displays stock of the bot)
+!level [your dream level] - calculates how many sets and how many keys it will cost to reach the desired level
+*!check - shows how many sets the bot has available and how much you can craft
+!check [amount] - shows how many sets and which level you will reach for a specific amount of keys
+!checkhydra [amount] - shows how many sets and which level you will reach for a specific amount of Hydra keys
+!checktf [amount] - shows how many sets and which level you will reach for a specific amount of TF keys
+*!checkgems [amount] - shows how many sets and which level you would reach for a specific amount of gems
 
-- Action Commands:
+!buy [amount of CS:GO keys] - use this to buy sets you have not crafted yet for that amount of CS:GO keys, following the current bot rate
+!buyhydra [amount of Hydra keys] - use to buy that amount of Hydra keys for sets you dont have, following the current BOT rate
+!buytf [amount of Tf keys] - use to buy that amount of TF2 keys for sets you dont have, following the current BOT rate
+*!buygems [amount of sets] - use this to buy that amount of sets you have not crafted yet for gems, following the current bot rate
+!buyany [amount of CS:GO keys] - use this to buy that amount of CS:GO keys for any sets even from badges that has already been crafted, following the current bot rate
 
-9. !donatesets (Command for filling bot with sets or can be used if someone wants to donate sets)
-10. !buytf2 amount_of_keys
-11. !selltf2 amount_of_keys
-12. !buyref amount_of_ref
-13. !buyone amounf_of_keys
-14.  !buyany amounf_of_keys
-15.  !buycsgo amount_of_keys
-16.  !sellcsgo amount_of_keys
+!buyone [amount of CS:GO keys] - only use this if you are a badge collector. The bot will send one set of each game, following the current bot rate
+!buyonehydra [amount of Hydra keys] - only use this if you are a badge collector. The bot will send one set of each game, following the current bot rate
+!buyonetf [amount of TF keys] - only use this if you are a badge collector. The bot will send one set of each game, following the current bot rate
+*!buyonegems [amount of sets] - only use this if you are a badge collector. The same as !buyone, but you pay with gems!
+
+!sell [amount of CS:GO keys] - sell your sets for CS:GO key(s)
+!sellhydra [amount of Hydra keys] - sell your sets for Hydra key(s)
+*!sellgems [amount of sets] - sell your sets for gems
+!selltf [amount of Tf keys] - sell your sets for TF key(s)
+!sellcheck - shows information about the sets you can sell
 
 - Admin Commands:
 
-17. !block user_id (admin command to block user from using bot due spaming)
-18. !usercheck
-19. !withdraw (command for admin to withdraw keys) 
+!block user_id (admin command to block user from using bot due spaming)
+!usercheck
+!withdraw (command for admin to withdraw keys) 
 
 
 # Prerequisites (What bot require to start)
@@ -105,6 +115,6 @@ If there is any questions feel free to ask me on: https://steamcommunity.com/id/
 
 # Want Improvements ?
 
-If you have some requests feel free to contact me : https://steamcommunity.com/id/MajokingGames/ i can code custom features to the Bot.
+If you have some requests feel free to contact me : https://steamcommunity.com/id/rsobaid/ i can code custom features to the Bot.
 
 This project is licensed under the MIT License - see the LICENSE file for more details

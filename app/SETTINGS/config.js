@@ -15,7 +15,7 @@ module.exports = {
 
     //-----------------------------------------------------------------------------------------------
 
-    PLAYGAMES: ["// Your custom message here for played game", 440], // List of appid's/names. Names will be played as non steam games. First game entered will show on profile, others will be idled in the background.
+    PLAYGAMES: ["//none", 730, 753], // List of appid's/names. Names will be played as non steam games. First game entered will show on profile, others will be idled in the background.
     ADMINS: [""], // to add admin put steam64id 
 
     //-----------------------------------------------------------------------------------------------
@@ -29,13 +29,16 @@ module.exports = {
     // Rate Settings
 
     CARDS: {
-        BUY1KEYFORAMOUNTOFSETS: 18, // For instance; if set to 9 you sell 9 sets for 1 key.
-        GIVE1KEYPERAMOUNTOFSETS: 50, // For instance; if set to 6 you give people that have access to the !sell command 1 key for 6 of their sets.
-        BUY1KEYFORAMOUNTOFSETSTF2: 19, // For instance; if set to 9 you sell 9 sets for 1 key.
-        GIVE1KEYPERAMOUNTOFSETSTF2: 50, // For instance; if set to 6 you give people that have access to the !sell command 1 key for 6 of their sets.
+        BUY1KEYFORAMOUNTOFSETS: 26, // For instance; if set to 9 you sell 9 sets for 1 key.
+        GIVE1KEYPERAMOUNTOFSETS: 60, // For instance; if set to 6 you give people that have access to the !sell command 1 key for 6 of their sets.
+        BUY1KEYFORAMOUNTOFSETSHYDRA: 12, // For instance; if set to 9 you sell 9 sets for 1 key.
+        GIVE1KEYPERAMOUNTOFSETS: 60, // For instance; if set to 6 you give people that have access to the !sell command 1 key for 6 of their sets.
+        BUY1KEYFORAMOUNTOFSETSTF2: 16, // For instance; if set to 9 you sell 9 sets for 1 key.
+        GIVE1KEYPERAMOUNTOFSETSTF2: 20, // For instance; if set to 6 you give people that have access to the !sell command 1 key for 6 of their sets.
 		
 		BUY1SETFORAMOUNTOFREF: 3, // For instance; if set to 1 you sell 1 sets for 2 ref.
 		BUY1GEMSFORAMOUNTOFSETS: 4, // For instance; if set to 4 you sell 4 sets for 1 sack of gems.
+        GIVE1GEMSFORAMOUNTOFSETSGEMS: 10,
 		
         MAXSETSELL: 50, // The maximum amount of sets of a kind the bot will send when !sell is used
         PEOPLETHATCANSELL: ["STEAMID64", "STEAMID64"]
@@ -48,7 +51,7 @@ module.exports = {
     MAXSELL: 100, // Max keys you can sell sets for at a time
     MAXBUYGEMS: 1, // Max sack of gems you can buy sets for at a time
 
-    Buying_Sets_With_Ref_Enable: true,         // [true/false] Enable or disable | bot selling sets for ref metal in tf2
+    Buying_Sets_With_Ref_Enable: false,         // [true/false] Enable or disable | bot selling sets for ref metal in tf2
     MAXBUYREF: 100, // Max ref you can buy sets for at a time
 
     //-----------------------------------------------------------------------------------------------
@@ -75,7 +78,8 @@ module.exports = {
             "Operation Phoenix Case Key",
             "Gamma Case Key",
             "Gamma 2 Case Key",
-            "Glove Case Key"
+            "Glove Case Key",
+            "Operation Hydra Case Key",
     ], // These are all keys ^ //Mann Co. Supply Crate Key//
 
 
@@ -96,9 +100,9 @@ module.exports = {
         //IFNO COMMANDS
 
     INFO: "Use these commands to get information about the card set bot: \n!stock [card sets in stock] \n!owner [profile]",
-    OWNER: "/me https://steamcommunity.com/id/",
+    OWNER: "Is there something wrong? \nLet me know if you're experiencing issues with my bot! https://steamcommunity.com/id/",
     SELLHELP: "You are also able to sell sets. You can do this by using !sell [amount of keys].",
-    COMMANDS: "You can use these commands: \n!buytf2 [amount of TF2 keys] \n!buycsgo [amount of CS:GO keys] \n!buyref [amount of Refined Metal] \n\n!level [desired level you want to become] \n!check [amount of keys] \n!info [information about the bot]",
+    HELP: "Bot commands:\n!owner - shows my owner profile, if you have any problems you can contact him\n!stats - shows the current amount of the bot currencies\n!prices - shows the current prices of the bot\n\n!level [your dream level] - calculates how many sets and how many keys it will cost to reach the desired level\n!check - shows how many sets the bot has available and how much you can craft\n!check [amount] - shows how many sets and which level you will reach for a specific amount of keys\n!checkhydra [amount] - shows how many sets and which level you will reach for a specific amount of Hydra keys\n!checktf [amount] - shows how many sets and which level you will reach for a specific amount of TF keys\n!checkgems [amount] - shows how many sets and which level you would reach for a specific amount of gems\n\n!buy [amount of CS:GO keys] - use this to buy sets you have not crafted yet for that amount of CS:GO keys, following the current bot rate\n!buyhydra [amount of Hydra keys] - use to buy that amount of Hydra keys for sets you dont have, following the current BOT rate\n!buytf [amount of Tf keys] - use to buy that amount of TF2 keys for sets you dont have, following the current BOT rate\n!buygems [amount of sets] - use this to buy that amount of sets you have not crafted yet for gems, following the current bot rate\n!buyany [amount of CS:GO keys] - use this to buy that amount of CS:GO keys for any sets even from badges that has already been crafted, following the current bot rate\n\n!buyone [amount of CS:GO keys] - only use this if you are a badge collector. The bot will send one set of each game, following the current bot rate\n!buyonehydra [amount of Hydra keys] - only use this if you are a badge collector. The bot will send one set of each game, following the current bot rate\n!buyonetf [amount of TF keys] - only use this if you are a badge collector. The bot will send one set of each game, following the current bot rate\n!buyonegems [amount of sets] - only use this if you are a badge collector. The same as !buyone, but you pay with gems!\n\n!sell [amount of CS:GO keys] - sell your sets for CS:GO key(s)\n!sellhydra [amount of Hydra keys] - sell your sets for Hydra key(s)\n!sellgems [amount of sets] - sell your sets for gems\n!selltf [amount of Tf keys] - sell your sets for TF key(s)\n!sellcheck - shows information about the sets you can sell",
 
 
     //-----------------------------------------------------------------------------------------------
@@ -131,6 +135,6 @@ module.exports = {
     //-SETTINGS: INVITING TO THE GROUP
 
     friend_group_inviting: true,            // [true/false] Enable or disable | Inviting user to the selected group on friend request
-    INVITETOGROUPID: "",                    // Invite users to this group
+    INVITETOGROUPID: "103582791466655863",                    // Invite users to this group
 
 }
